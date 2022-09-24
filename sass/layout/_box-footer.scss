@@ -1,0 +1,36 @@
+.box {
+    display: block;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.box__down {
+    font-weight: 700;
+    line-height: 1.14;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var(--primary-white-color);
+}
+
+.box__list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.box__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    fill: var(--primary-white-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+&:focus{
+    background-color: var(--accent-color);
+}}

@@ -1,0 +1,62 @@
+@media screen and (min-width: 480px) {
+  .page-inform {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-inform {
+    display: block;
+  }
+  .page-inform__box {
+    margin-bottom: 10px;
+  }
+  .page-inform__mail,
+  .page-inform__tel {
+    display: flex;
+    align-items: center;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--accent-color);
+    }
+  }
+
+  .page-inform__envelope {
+    margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus,
+    &:active {
+      fill: var(--accent-color);
+    }
+  }
+
+  .page-inform__telephone {
+    margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus,
+    &:active {
+      fill: var(--accent-color);
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-inform {
+    display: flex;
+  }
+  .page-inform__box {
+    margin-right: 50px;
+  }
+}

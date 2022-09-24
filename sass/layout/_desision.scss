@@ -1,0 +1,34 @@
+@media screen and (min-width: 480px) {
+  .decision {
+    padding-top: 118px;
+    padding-bottom: 118px;
+    text-align: center;
+  }
+
+  .decision-business {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.615;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .decision {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .decision-business {
+    font-size: 44px;
+    line-height: 1.36;
+    width: 696px;
+  }
+}

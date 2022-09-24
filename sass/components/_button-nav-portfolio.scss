@@ -1,0 +1,41 @@
+.button-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+
+.button-nav__choice:not(:last-child) {
+    margin-right: 8px;
+}
+
+.button {
+    color: var(--title-text-color);
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    min-width: 73px;
+    height: 38px;
+    border: transparent;
+    padding: 6px 22px;
+
+    &:hover,
+        &:focus,
+        &:active {
+            background-color: var(--accent-color);
+            color: var(--primary-white-color);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            text-align: center;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: inherit;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
