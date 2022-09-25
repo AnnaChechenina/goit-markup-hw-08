@@ -1,59 +1,49 @@
-@media screen and (min-width: 480px) {
-  .characteristic {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .characteristic__features {
-    display: inline-block;
-  }
-  .characteristic__link {
-    display: flex;
-    justify-content: center;
-    background: #f5f4fa;
-    border-radius: 4px;
-    width: 450px;
-    height: 120px;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  .characteristic__icon {
-    fill: var(--title-text-color);
-  }
-  .characteristic__title {
-    color: var(--title-text-color);
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  .characteristic__text {
-    color: var(--primary-text-color);
-    line-height: 1.71;
-    width: 450px;
-    margin-bottom: 30px;
-  }
+.characteristic {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.characteristic__features {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.characteristic__class {
+  width: 450px;
+}
+.characteristic__link {
+  display: flex;
+  justify-content: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  height: 120px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.characteristic__icon {
+  fill: var(--title-text-color);
+}
+.characteristic__title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.characteristic__text {
+  color: var(--primary-text-color);
+  line-height: 1.71;
 }
 
 @media screen and (min-width: 768px) {
   .characteristic__features {
-    display: inline-flex;
-
-    justify-content: space-between;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
-
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
   }
-
-  .characteristic__link {
+  .characteristic__class {
     width: 354px;
   }
-  .characteristic__text {
-    width: 354px;
-  }
+
   .characteristic__title {
     text-align: start;
   }
@@ -67,10 +57,7 @@
     display: flex;
     justify-content: space-between;
   }
-  .characteristic__link {
-    width: 270px;
-  }
-  .characteristic__text {
+  .characteristic__class {
     width: 270px;
   }
 }

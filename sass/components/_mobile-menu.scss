@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+
   .mobile-menu {
     position: fixed;
     width: 100%;
@@ -131,7 +131,7 @@
   .mobile-menu__social-name::after {
     margin-left: 10px;
   }
-}
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;

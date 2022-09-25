@@ -1,22 +1,21 @@
-@media screen and (min-width: 480px) {
-  .overlay {
-    background-color: #c4c4c4;
-    max-width: 1600px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 1px solid #ececec;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(/images/background-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-clip: border-box;
-  }
+.overlay {
+  background-color: #c4c4c4;
+  max-width: 1600px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid #ececec;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/images/background-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
 }
+
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
   screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
