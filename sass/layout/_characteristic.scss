@@ -38,8 +38,14 @@
 @media screen and (min-width: 768px) {
   .characteristic__features {
     display: inline-flex;
-    flex-wrap: wrap;
+
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 
   .characteristic__link {

@@ -114,7 +114,8 @@
   .modal-form-check-agreement {
     display: flex;
     align-items: center;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.167;
     color: var(--primary-text-color);
     margin-bottom: 30px;
     margin-top: 20px;
@@ -122,5 +123,11 @@
 
   .modal-form-doc {
     color: var(--accent-color);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-form-check-agreement {
+    font-size: 14px;
+    line-height: 1.71;
   }
 }
