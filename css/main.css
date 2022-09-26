@@ -502,7 +502,7 @@ ul {
   color: var(--accent-color);
   text-decoration: none;
 }
-.mobile-menu__social-name::after {
+.mobile-menu__social-name::after:not(:last-child) {
   content: "";
   width: 22px;
   height: 0px;
