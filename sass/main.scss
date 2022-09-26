@@ -1,23 +1,25 @@
 @import "./utils/variables";
-@import "./utils/visually-hiddedn";
+@import "./utils/visually-hidden";
 
 @import "./base/common";
 @import "./base/container";
 
 @import "./components/overlay";
-@import "./components/decision-bussines-button";
+@import "./components/decision-business-button";
 @import "./components/backdrop";
 @import "./components/modal-windows";
 @import "./components/modal-form";
-@import "./components/modal-form-sumbit";
+@import "./components/modal-form-submit";
 @import "./components/mobile-btn";
 @import "./components/mobile-menu";
+@import "./components/button-nav-portfolio";
+@import "./components/portfolio-overlay";
 
 @import "./layout/header";
 @import "./layout/logo";
 @import "./layout/header-navigation";
 @import "./layout/page-header-information";
-@import "./layout/desision";
+@import "./layout/decision";
 @import "./layout/characteristic";
 @import "./layout/team";
 @import "./layout/team-social-list";
@@ -26,3 +28,5 @@
 @import "./layout/footer";
 @import "./layout/box-footer";
 @import "./layout/letter";
+@import "./layout/portfolio";
+@import "./layout/box-img-portfolio";

@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/portfolio.min.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+
 </head>
 
 <body>
@@ -33,14 +34,14 @@
           </li>
         </ul>
       </nav>
-      <button type="button" class="mobile-btn" data-menu-open>
+      <button type="button" class="mobile-btn js-open-menu">
         <svg class="mobile-btn__icon" width="40" height="40">
           <use href="./images/symbol-defs.svg#icon-burger"></use>
         </svg>
       </button>
-      <div class="mobile-menu" data-menu>
+      <div class="mobile-menu js-menu-container">
         <div class="container mobile-menu__container">
-          <button class="mobile-menu__close" data-menu-close>
+          <button class="mobile-menu__close js-close-menu">
             <svg class="mobile-menu__close-icon" width="11" height="11">
               <use href="./images/symbol-defs.svg#icon-close" </svg>
           </button>
@@ -262,7 +263,7 @@
                 <picture>
                   <source srcset="./images/project7-desktop.jpg 1x, ./images/project7-desktop@2x.jpg 2x"
                     media="(min-width:1200px)">
-                  <source srcset="./images/project7-tablet.jpg 1x, ./images/project7-tablet@2x.jpg 2x"
+                  <source srcset="./images/project7-tablet.jpg 1x, ./images/project7-table@2x.jpg 2x"
                     media="(min-width:768px)">
                   <source srcset="./images/project7-mobile.jpg 1x, ./images/project7-mobile@2x.jpg 2x"
                     media="(min-width:480px)">

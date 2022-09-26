@@ -113,7 +113,7 @@
   letter-spacing: 0.02em;
   color: var(--accent-color);
   text-decoration: none;
-  &::after:not(:last-child) {
+  &::after {
     content: "";
 
     width: 22px;

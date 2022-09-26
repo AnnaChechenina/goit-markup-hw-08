@@ -2,9 +2,10 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
- gap: 8px;
+  gap: 8px;
   margin-bottom: 40px;
-
+  width: 420px;
+}
 
 .button {
   color: var(--title-text-color);
@@ -43,13 +44,15 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+    width: 768px;
   }
-   .button-nav__choice:not(:last-child) {
-  margin-right: 8px;
-}
+  .button-nav__choice:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .button-nav {
     margin-bottom: 50px;
+    width: 1200px;
   }
 }
