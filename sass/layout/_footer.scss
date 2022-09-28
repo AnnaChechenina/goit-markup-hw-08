@@ -32,14 +32,15 @@
   justify-content: center;
   align-items: center;
 }
-.footer__information:not(:last-child) {
-  margin-bottom: 8px;
-}
+
 .footer__street {
   color: var(--primary-white-color);
   line-height: 1.71;
   font-style: normal;
   text-decoration: none;
+}
+.footer__distance:not(:last-child) {
+  margin-bottom: 8px;
 }
 .footer__mail,
 .footer__number {
@@ -68,9 +69,12 @@
   .footer__logo {
     font-size: 26px;
     line-height: 1.19;
+    justify-content: flex-start;
   }
-
-  .footer__information:not(:last-child) {
+  .footer__information {
+    align-items: flex-start;
+  }
+  .footer__distance:not(:last-child) {
     margin-bottom: 9px;
   }
 }
