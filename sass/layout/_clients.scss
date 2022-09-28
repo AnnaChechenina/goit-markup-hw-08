@@ -16,11 +16,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 .clients__link {
   text-align: center;
-  width: 210px;
+  width: 100vw;
   height: 92px;
   display: flex;
   justify-content: center;
@@ -38,9 +39,15 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .clients__link {
+    max-width: 210px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .clients__link {
-    width: 226px;
+    max-width: 226px;
   }
 }
 
@@ -59,6 +66,6 @@
   }
 
   .clients__link {
-    width: 170px;
+    max-width: 170px;
   }
 }

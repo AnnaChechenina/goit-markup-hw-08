@@ -14,10 +14,14 @@
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
-  width: 360px;
+  width: 100%;
   margin-bottom: 30px;
 }
-
+@media screen and (min-width: 480px) {
+  .decision-business {
+    max-width: 360px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .decision {
     padding-top: 200px;
@@ -27,6 +31,6 @@
   .decision-business {
     font-size: 44px;
     line-height: 1.36;
-    width: 696px;
+    max-width: 696px;
   }
 }

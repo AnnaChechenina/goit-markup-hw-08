@@ -1,8 +1,13 @@
-.mobile-btn {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  line-height: 0;
+@media screen and (max-width: 767px) {
+  .mobile-btn {
+    display: inline-flex;
+    margin: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
