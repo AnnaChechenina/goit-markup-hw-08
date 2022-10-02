@@ -4,6 +4,7 @@
   align-items: center;
   margin-top: 60px;
 }
+
 .letter__subscribe {
   font-weight: 700;
   line-height: 1.14;
@@ -58,6 +59,17 @@
 .letter__fly {
   color: var(--primary-white-color);
   margin-left: 10px;
+}
+@media screen and (max-width: 479px) {
+  .letter__mailbox {
+    width: calc(100vw - 30px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .letter {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
